@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToAnki", "TextToAnki\TextToAnki.csproj", "{F0DC1BDD-57DB-4765-ACF8-3FDFFE250DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnkiNotesBuilder.Common", "AnkiNotesBuilder.Common\AnkiNotesBuilder.Common.csproj", "{CA91CA2A-4745-4F86-B0AA-9BD3D3F531DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnkiNotesBuilder.Domain", "AnkiNotesBuilder.Domain\AnkiNotesBuilder.Domain.csproj", "{6C358DE8-C112-4E32-A854-1C1EA73C6286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnkiNotesBuilder.Application", "AnkiNotesBuilder.Application\AnkiNotesBuilder.Application.csproj", "{6F96BA7E-2D9F-4B8D-94DF-4664727004C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Common", "1. Common", "{C9A0C3D9-C08D-475B-9535-5551597D906A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Core", "2. Core", "{B621A407-5624-4083-B79A-F211F3D20364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Presentation", "3. Presentation", "{B362002F-6E78-4410-9E1A-E2CF41A6665E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0DC1BDD-57DB-4765-ACF8-3FDFFE250DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DC1BDD-57DB-4765-ACF8-3FDFFE250DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DC1BDD-57DB-4765-ACF8-3FDFFE250DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DC1BDD-57DB-4765-ACF8-3FDFFE250DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA91CA2A-4745-4F86-B0AA-9BD3D3F531DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA91CA2A-4745-4F86-B0AA-9BD3D3F531DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA91CA2A-4745-4F86-B0AA-9BD3D3F531DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA91CA2A-4745-4F86-B0AA-9BD3D3F531DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C358DE8-C112-4E32-A854-1C1EA73C6286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C358DE8-C112-4E32-A854-1C1EA73C6286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C358DE8-C112-4E32-A854-1C1EA73C6286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C358DE8-C112-4E32-A854-1C1EA73C6286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F96BA7E-2D9F-4B8D-94DF-4664727004C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F96BA7E-2D9F-4B8D-94DF-4664727004C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F96BA7E-2D9F-4B8D-94DF-4664727004C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F96BA7E-2D9F-4B8D-94DF-4664727004C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0DC1BDD-57DB-4765-ACF8-3FDFFE250DB0} = {B362002F-6E78-4410-9E1A-E2CF41A6665E}
+		{CA91CA2A-4745-4F86-B0AA-9BD3D3F531DF} = {C9A0C3D9-C08D-475B-9535-5551597D906A}
+		{6C358DE8-C112-4E32-A854-1C1EA73C6286} = {B621A407-5624-4083-B79A-F211F3D20364}
+		{6F96BA7E-2D9F-4B8D-94DF-4664727004C7} = {B621A407-5624-4083-B79A-F211F3D20364}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECBB30FF-C26E-46B4-9BB0-2D55FF84F40D}
+	EndGlobalSection
+EndGlobal

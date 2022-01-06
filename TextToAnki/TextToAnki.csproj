@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AnkiNotesBuilder.Common\AnkiNotesBuilder.Common.csproj" />
+    <ProjectReference Include="..\AnkiNotesBuilder.Domain\AnkiNotesBuilder.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
