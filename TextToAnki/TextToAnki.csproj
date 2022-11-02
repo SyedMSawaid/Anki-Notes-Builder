@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AnkiNotesBuilder.Application\AnkiNotesBuilder.Application.csproj" />
     <ProjectReference Include="..\AnkiNotesBuilder.Common\AnkiNotesBuilder.Common.csproj" />
     <ProjectReference Include="..\AnkiNotesBuilder.Domain\AnkiNotesBuilder.Domain.csproj" />
   </ItemGroup>
